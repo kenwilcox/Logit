@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Testing Logit</title>
+    </head>
+
+   <body>
+   <h1>Testing Logit</h1>
+    <script src="logit.iife.js"></script>
+    <script>
+        // Just a simple string to the console
+        app.logit("This is a test");
+
+        // How about the console and the document
+        app.logit("This is a test", {document: true});
+
+        // Heck, even an alert
+        app.logit("This is in the console, document, and alert", {document: true, alert: true});
+    </script>
+    </body>
+</html>
